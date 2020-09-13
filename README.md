@@ -9,7 +9,7 @@ tags.csv - translates tag IDs to names - (34252 x 2), and rating.csv - contains 
 
 As the first step, I combined the csv files into one dataframe to ensure that only relevant features are used. Secondly, I ensure that the data is clean before I go into explaratory data analysis and modeling. 
 
-## Explaratory Data Analysis
+## Exploratory Data Analysis
 I look for insights I can use to enhance my book recommendation systems. The focus in the EDA is to understand which books are popular, what are the factors that influence books' popularity, and whether the books popularity are biased. 
 
 ## Modeling 
