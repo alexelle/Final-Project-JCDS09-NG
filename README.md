@@ -25,7 +25,6 @@ This algorithm recommends products which are similar to the ones that a user has
 
 ![Content Based Result](Content Based Result.png)
 
-
 ## Conclusion
 Both model seems to give out reasonable recommendations that will help customers
 who are looking for their next read. However each models come with their own weaknesses.
