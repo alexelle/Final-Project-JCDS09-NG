@@ -15,18 +15,18 @@ I look for insights I can use to enhance my book recommendation systems. The foc
 ## Modeling 
 For this project, I attempted to create a recommender system using two models.
 
-### 1. Collaborative Filtering using Nearest Neighbors
+#### 1. Collaborative Filtering using Nearest Neighbors
 NN is a machine learning algorithm to find clusters of similar users based on common book ratings, and make predictions using the average rating of top nearest neighbors. 
 
-### 2. Content-Based Filtering using CountVectorizer and TFidfVectorizer
+#### 2. Content-Based Filtering using CountVectorizer and TFidfVectorizer
 This algorithm recommends products which are similar to the ones that a user has liked in the past. For this model, the recommendations are based on author and genres. 
 
 ## Conclusion
 Both model seems to give out reasonable recommendations that will help customers
 who are looking for their next read. However each models come with their own weaknesses.
 
-### Content-Based Filtering
+#### Content-Based Filtering
 To get a better recommendation using content-based filtering, there needs to be data on either book descriptions or written text review. Had these two features exist, we may be able to get a better recommendations.
 
-### Collaborative Filtering
+#### Collaborative Filtering
 As collaborative filtering rely on ratings given by the users, the data may be bias as popular books may receive more ratings.
